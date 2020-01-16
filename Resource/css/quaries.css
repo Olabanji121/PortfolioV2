@@ -1,0 +1,287 @@
+/* big table to 1200px (width smaller than the 1140px row)*/
+
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+
+  .main-nav{opacity: 1;} 
+
+  .pt-5{
+    font-size: small;
+  }
+  /* .footer_copyright{
+    display: none;
+  } */
+}
+
+/* small phone to big tablet from 768 to 1024px */
+
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+  .main-nav {
+    float: right;
+    list-style: none;
+    /* margin-top: -50px;*/
+  }
+
+  .main-nav{opacity: 1;}  
+
+  .main-nav li {
+  display: inline-block;
+  margin-left: 30px;
+  }
+
+  .js--wp-4{
+    opacity: 1;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+    letter-spacing: 0.6px;
+    margin-top: -50px;
+  }
+  .steps-box {
+    margin-top: 10px;
+  }
+
+  .steps-box:last-child {
+    margin-top: 0;
+  }
+
+  .app-screen {
+    width: 60%;
+  }
+  .cities-icon {
+    font-size: 90%;
+  }
+  .city-list {
+    font-size: 15px;
+  }
+  .plan-box {
+    margin-left: 0%;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  footer {
+  background-color:  #1B659B;;
+  height: 20%;
+  padding-top: 30px;
+  padding-bottom: 15px
+ }
+  .footer-nav li{
+        margin-right: 1px;
+        margin-left: 1px;
+        display: inline-block
+
+    }
+
+    .pt-5{
+      font-size: small;
+    }
+/* 
+    .footer_copyright{
+      display: none;
+    } */
+  
+}
+
+/* small phone to small tablet from 481 to 767px */
+
+@media only screen and (max-width: 767px) {
+    body{ font-size:16px}
+
+    section {padding: 30px 0;}
+     .hero-text-box {
+    padding: 0 4%;}
+
+  .row {
+    padding: 0 4%;}
+
+  .col{width: 100%;
+margin: 0% 0 4% 0%;}
+
+  .main-nav{display: none;}
+
+  .js--wp-4{
+    opacity: 1;
+  }
+
+  .box{
+    width: 70%;
+    margin-left: 80px !important;
+  }
+
+  .main-nav{
+    float: left;
+  }
+
+  .main-nav li{
+    display: block;
+    padding: 5px;
+  }
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+  }
+
+  .mobile-nav-icon{
+    display: inline-block;
+  }
+  .sticky .mobile-nav-icon i{
+    color: #555;
+  }
+  .sticky .mobile-nav-icon {
+   margin-top: 10px;
+  }
+
+  
+  .sticky .main-nav{
+    padding: 5px ;
+    margin-top: 0px;
+  }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+
+  padding: 5px ;
+}
+
+
+   .long-copy {
+    margin-top: -50px;
+    padding-top: 50px;
+  }
+  h1{font-size: 26px;}
+  h2{ font-size: 16px;}
+   .steps-box {
+    margin-top: 10px;
+  }
+  .steps-box:first-child {
+  margin-bottom: 40px;
+ text-align: center;
+}
+
+ .works-step p {
+  margin-bottom: 25px;
+  padding-top: 2.2%;
+}
+
+.works-step div {
+  
+  margin-right: 25px;
+  margin-bottom: 1px;
+}
+
+.works-step:last-of-type {
+  margin-bottom: 5px;
+}
+
+.app-screen {
+    width: 40%;
+  }
+.section-cities{padding-left: 20px}
+
+  h2:after {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+blockquote {
+  padding: 0%;
+  margin-top: 5%;
+  /*overflow-y: hidden;*/
+}
+
+blockquote:before {
+  font-size: 400%;
+  top: 2px;
+  left: -5px;
+}
+
+.pt-5{
+  font-size: small;
+}
+
+.footer_copyright{
+  display: none;
+}
+
+}
+
+/* small phone from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+    .contact-form {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.box{
+  width: 70%;
+  margin-left: 33px !important;
+}
+
+  .footer-nav{
+    position: absolute;
+    display: block;
+    width: 100%;
+    /* z-index: 200; */
+    }
+    .social-links{
+      position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: -15px
+    }
+    
+    .footer-nav li{
+        margin-right: 5px;
+        margin-left: 5px;
+        display: inline-block
+
+    }
+    .social-links li {
+    display: inline-block;
+    margin-right: 0px;
+    margin-top: 30px;
+    }
+   
+
+    .copy-right{
+    text-align: center;
+    color:#f4f4f4;
+    margin-top: 20px;
+    padding-bottom: 0;
+    font-size: 90%;
+}
+
+.pt-5{
+  font-size: small;
+}
+
+.footer_copyright{
+  display: none;
+}
+
+.btn-full{
+  margin-bottom: 15px;
+}
+    
+}
+
+
