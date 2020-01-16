@@ -2,6 +2,8 @@
 /* BASIC SETUP*/
 /* -----------------------------------------------------*/
 
+
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +19,7 @@ html {
   font-weight: 300;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .clearfix {
@@ -45,6 +48,7 @@ section {
 }
 
 .box {
+  height: 500px;
   padding: 1%;
   text-align: center;
   background-color: rgb(143, 185, 214);
@@ -121,9 +125,24 @@ h3 {
 }
 
 .box p {
-  font-size: 90%;
-  line-height: 145%;
+  font-size: 89%;
+  line-height: 108%;
   letter-spacing: 0.5px;
+}
+
+.p-1{
+  height: 90px;
+}
+.p-2{
+  height: 90px;
+  padding-bottom: 20px;
+}
+.p-3{
+  height: 90px;
+}
+.p-4{
+  height: 90px !important;
+  /* margin-bottom: 30px; */
 }
 
 /*------ icon------*/
@@ -747,9 +766,12 @@ footer {
   padding: 5px;
 }
 
-.p-2{
+.p-2footer{
   padding-top:10px;
   
+}
+.p-1footer{
+  margin-bottom: 5px;
 }
 
 .pt-5{
@@ -769,7 +791,7 @@ footer {
 }
 .footer-nav li a,
 .social-links li a {
-  color: rgb(200, 215, 226) !important;
+  color: #fff !important;
 }
 
 .footer-nav li:last-child,
@@ -781,7 +803,7 @@ footer {
 .footer-nav li a :active,
 .social-links li a:hover,
 .social-links li a :active {
-  color: #f4f4f4 !important;
+  color: #0f308b !important;
 }
 
 

@@ -15,6 +15,32 @@
   .pt-5{
     font-size: small;
   }
+
+  .box {
+    height: 450px;
+    
+  }
+
+  .p-1{
+    height: 100px;
+  }
+  .p-2{
+    height: 100px;
+    padding-bottom: 20px;
+  }
+  .p-3{
+    height: 90px;
+  }
+  .p-4{
+    height: 90px !important;
+    /* margin-bottom: 20px; */
+  }
+
+  .box p {
+    font-size: 100%;
+    line-height: 150%;
+    letter-spacing: 0.6px;
+  }
   /* .footer_copyright{
     display: none;
   } */
@@ -95,6 +121,31 @@
     .footer_copyright{
       display: none;
     } */
+    .box {
+      height: 450px;
+      
+    }
+  
+    .p-1{
+      height: 100px;
+    }
+    .p-2{
+      height: 100px;
+      margin-bottom: 20px;
+    }
+    .p-3{
+      height: 90px;
+    }
+    .p-4{
+      height: 90px !important;
+      margin-bottom: 20px;
+    }
+  
+    .box p {
+      font-size: 100%;
+      line-height: 150%;
+      letter-spacing: 0.6px;
+    }
   
 }
 
@@ -220,6 +271,32 @@ blockquote:before {
   display: none;
 }
 
+.box {
+  height: 450px;
+  
+}
+
+.p-1{
+  height: 70px;
+}
+.p-2{
+  height: 70px;
+  /* padding-bottom: 20px; */
+}
+.p-3{
+  height: 70px;
+}
+.p-4{
+  height: 70px !important;
+  /* margin-bottom: 20px; */
+}
+
+.box p {
+  font-size: 100%;
+  line-height: 150%;
+  letter-spacing: 0.6px;
+}
+
 }
 
 /* small phone from 0 to 480px */
@@ -279,7 +356,22 @@ blockquote:before {
 }
 
 .btn-full{
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.p-1{
+  height: 85px;
+}
+.p-2{
+  height: 85px;
+  /* padding-bottom: 20px; */
+}
+.p-3{
+  height: 85px;
+}
+.p-4{
+  height: 85px !important;
+  /* margin-bottom: 20px; */
 }
     
 }
